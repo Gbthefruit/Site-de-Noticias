@@ -1,0 +1,88 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #d6d6d6;
+}
+
+#container {
+    margin: 0px auto;
+    width: 940px;
+}
+#cabecalho {
+    text-align: center;
+    background-color: #211F1F;
+    padding: 15px;
+}
+#logo {
+    color: #FFFF;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    position: relative;
+    top: -15px;
+}
+#main-content {
+    margin: 0px auto;
+    float: left;
+    width: 470px;
+}
+#lateral {
+    width: 450px;
+    float: right;
+}
+#rodape {
+    clear: both;
+}
+.menu-horizontal {
+    padding: 0px 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-decoration: none;
+}
+.noticia {
+    background-color: #211F1F;
+    margin: 10px;
+    padding: 10px;
+}
+.biografia {
+    margin: 0px 0px 15px 5px;
+    color: #FFFF;
+}
+.conteudo-lateral {
+    margin-top: 30px;
+    padding-left: 15px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #211F1F;
+}
+a {
+    text-decoration: none;
+}
+#cabecalho a:hover {
+    background-color: #FFFF;
+    color: #211F1F;
+}
+.conteudo-lateral a:link, .conteudo-lateral a:visited {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 15px;
+    color: #211F1F;
+}
+
+.conteudo-lateral a:hover {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 15px;
+    color: #211F1F;
+    text-decoration: underline;
+}
+a:link, a:visited {
+    color: #FFFF;
+}
+.noticia a:hover {
+    text-decoration: underline;
+}
+h2 {
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #211F1F;
+}
+h4 {
+    margin: 0px 0px 10px 5px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #FFFF;
+}
